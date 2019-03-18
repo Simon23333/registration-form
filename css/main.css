@@ -1,35 +1,23 @@
-
 html {
   font-family: "Open Sans", sans-serif;
-  background-color: #f2f2f2;
-}
-
-.article-card {
-  background-color: #fff;
 }
 
 h1 {
-  border-bottom: 1px solid #000;
+  border-bottom: 1.5px solid #000;
 }
 
-fieldset {
-  padding: 0;
-  border: 0;
-  border-top: 1px solid #000;
+body {
+  background-color: #f2f2f2;
+}
+
+section {
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .left-field {
-    display: inline-block;
-    padding-left: .5rem;
-    width: 49.5%;
-  }
-
-  .right-field {
-    display: inline-block;
-    padding-right: .5rem;
-    width: 49.5%;
+  .box {
+    padding: 1rem;
   }
 
 }
